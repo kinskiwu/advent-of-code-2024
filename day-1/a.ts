@@ -7,7 +7,7 @@ export async function day1a(data: string[]): Promise<number> {
 
   for (const line of data) {
     if (!line.trim()) {
-      console.warn('Empty line is found:', line);
+      console.warn('Empty line is found.');
       continue;
     }
 
